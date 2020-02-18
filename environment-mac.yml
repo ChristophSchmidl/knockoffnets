@@ -2,12 +2,11 @@ name: knockoff
 channels:
   - defaults
 dependencies:
+  # Platform specific version tags have been removed
   - ca-certificates=2019.5.15
   - certifi=2019.6.16
   - libedit=3.1.20181209
   - libffi=3.2.1
-  - libgcc-ng=9.1.0
-  - libstdcxx-ng=9.1.0
   - ncurses=6.1
   - openssl=1.1.1c
   - pip=19.1.1
@@ -19,6 +18,9 @@ dependencies:
   - wheel=0.33.4
   - xz=5.2.4
   - zlib=1.2.11
+ # The following two packages are Linux specific and not available on Mac
+ # - libgcc-ng=9.1.0
+ # - libstdcxx-ng=9.1.0
   - pip:
     - munch==2.3.2
     - numpy==1.16.4
