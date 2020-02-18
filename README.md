@@ -22,7 +22,7 @@ We validate model functionality stealing on a range of datasets and tasks, as we
   * Python 3.6
   * Pytorch 1.1
 
-**Note**: Platform specific version tags have been removed from the ``environment.yml`` file. Otherwise the creation of the virtual environment with conda fails. Furthermore, a second environment file ``environment-mac.yml`` has been created without the platform specific tags and libraries which are merely Linux specific have been removed. If you are on Linux, you can probably just use the ``environment.yml`` file. I did not test the installation under Windows.
+**Note**: Platform specific version tags have been removed from the ``environment.yml`` file. Otherwise the creation of the virtual environment with conda fails. Furthermore, a second environment file ``environment-mac.yml`` has been created without the platform specific tags and libraries which are merely Linux specific have been removed. If you are on Linux, you can probably just use the ``environment.yml`` file. I did not test the installation under Windows. See also: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
 
 Can be set up as:
 ```bash
